@@ -127,22 +127,7 @@ section {
   color: var(--yellow);
 }
 
-.header .icons div {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  background: var(--light-bg);
-  color: var(--black);
-  cursor: pointer;
-  text-align: center;
-  margin-left: 0.3rem;
-}
 
-.header .icons div:hover {
-  background: var(--black);
-  color: var(--white);
-}
 
 .header #menu-btn {
   display: none;
