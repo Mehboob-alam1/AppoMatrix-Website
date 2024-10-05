@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --yellow: #3137fd;
+  --yellow: #F29F05;
   --black: #111;
-  --white: #fff;
+  --white: #242930;
   --light-color: #666;
   --light-bg: #eee;
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--yellow);
+  background: black;
 }
 
 section {
@@ -103,7 +103,7 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   z-index: 1000;
-  background: var(--white);
+  background: #353B43;
 }
 
 .header .logo {
@@ -118,7 +118,7 @@ section {
 
 .header .navbar a {
   font-size: 2rem;
-  color: var(--black);
+  color: white;
   text-transform: capitalize;
   margin: 0 1rem;
 }
@@ -127,7 +127,22 @@ section {
   color: var(--yellow);
 }
 
+.header .icons div {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  background: var(--light-bg);
+  color: var(--black);
+  cursor: pointer;
+  text-align: center;
+  margin-left: 0.3rem;
+}
 
+.header .icons div:hover {
+  background: var(--black);
+  color: var(--white);
+}
 
 .header #menu-btn {
   display: none;
@@ -389,7 +404,7 @@ section {
 }
 
 .home .slide .content h3 {
-  font-size: 6rem;
+  font-size: 4.5rem;
   color: var(--black);
   text-transform: capitalize;
   text-transform: uppercase;
