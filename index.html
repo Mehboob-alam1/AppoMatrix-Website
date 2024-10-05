@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Appo Matrix</title>
 
@@ -14,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    
 
     <link
       rel="stylesheet"
@@ -32,15 +34,10 @@
     <!-- header section starts  -->
 
     <header class="header">
-      <!-- <a href="#" class="logo">Appo Matrix</a> -->
-      
-      <!-- <a href="#" class="logo" style="font-weight: 500;"><span style="font-weight: 600;">Appo</span> Matrix</a> -->
-
-      <a href="#" class="logo">
-        <img src="images/logoApp.jpg" alt="Appo Matrix Logo" width="50" height="50">
-    </a>
+      <!-- <a href="#" class="logo" style="font-weight: 600;">AppoMatrix</a> -->
+      <img src="./images/logo.png" height="40px" width="40px" alt="">
       <nav class="navbar">
-        <a href="#home">Home
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
@@ -65,7 +62,7 @@
             style="background: url(images/background\ image.jpg) no-repeat"
           >
             <div class="content">
-              <h3>Empowering Ideas Elevating solutions</h3>
+              <h3>Empowering <span style="color: #F29F05;">Ideas</span> Elevating solutions</h3>
               <p>
                 Elevate your business with cutting-edge web development, mobile applications, and AI solutions.
               </p>
@@ -73,7 +70,7 @@
             </div>
           </section>
 
-          <section
+          <!-- <section
             class="swiper-slide slide"
             style="background: url(images/BG2.png) no-repeat"
           >
@@ -84,7 +81,7 @@
               </p>
               <a href="#about" class="btn">get started</a>
             </div>
-          </section>
+          </section> -->
         </div>
 
         <!-- <div class="swiper-button-next"></div>
@@ -96,42 +93,83 @@
 
     <!-- about section starts  -->
 
-    <section class="about" id="about">
-      <h1 class="heading">about us</h1>
+    <section class="about" id="about" style="background-color: #353B43;">
+      <h1 class="heading">about <span style="color:var(--yellow);">us</span></h1>
 
-      <div class="row">
-        <div class="video">
-          <video src="https://www.youtube.com/watch?v=QyhwSYhX09s" loop muted autoplay></video>
-        </div>
+      <div class="Row">
+        
+       <div class="image">
+          
+          <img src="/images/laptop.jpg" height="400px" width="600px" style="opacity: 0.2;margin-top: 3%;">
+        
+  
+       </div>
 
         <div class="content">
-          <h3>We will provide you the best work which you dreamt for!</h3>
+          <h3>We’re A Software Design, Development & Marketing Agency!</h3>
           <p>
             At Software Company, we harness the power of technology to create innovative solutions that drive business success. From dynamic websites to transformative mobile apps and cutting-edge AI, we're your partners in navigating the digital landscape
           </p>
+          
+  
+          <h2 style="margin-top: 10px; font-weight: bolder;font-size: large; color: #F29F05;" >Vision & Mission</h2>
+          <p>Our goal is to deliver top-tier services to clients worldwide. We prioritize a people-driven approach, offering equal opportunities and a supportive work environment for our employees. This helps us foster a positive atmosphere and enhance our ability to serve clients effectively.</p>
+          <h2 style="margin-top: 10px; font-weight: bolder; font-size: large; color: #F29F05;">Our Values</h2>
+
+<p>We value integrity, honesty, transparency, and continuous self-improvement. Committed to our clients and partners, we embrace challenges with passion and drive. We hold ourselves accountable, ensuring we meet our commitments and consistently deliver high-quality results.s</p>
           <a href="#services" class="btn">read more</a>
         </div>
       </div>
 
       <div class="box-container">
-        <div class="box">
-          <h3>15+</h3>
-          <p>years of experience</p>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">350+</h3>
+          <p>Satisfied Clients              </p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">15+</h3>
+          <p>Mobile App Developers</p>
+        </div>
+        <div class="box"style="height: 160px;">
+          <h3 style="color: white;">10+</h3>
+          <p>Frontend Developers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color:white;">5+</h3>
+          <p>Backend Developers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">3+</h3>
+          <p>FullStack Developers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">10+</h3>
+          <p>UI/UX Designers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">5+</h3>
+          <p>Graphic Designers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">5+</h3>
+          <p>Digital Marketers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">3+</h3>
+          <p>AI Developers</p>
+        </div>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">6+</h3>
+          <p>Social Media Managers</p>
         </div>
 
-        <div class="box">
-          <h3>1500+</h3>
-          <p>project completed</p>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">2+</h3>
+          <p>Native Android Developers</p>
         </div>
-
-        <div class="box">
-          <h3>790+</h3>
-          <p>satiesfied clients</p>
-        </div>
-
-        <div class="box">
-          <h3>100+</h3>
-          <p>active developers</p>
+        <div class="box" style="height: 160px;">
+          <h3 style="color: white;">9+</h3>
+          <p>Content Writers</p>
         </div>
       </div>
     </section>
@@ -140,29 +178,29 @@
 
     <!-- services section starts  -->
 
-    <section class="services" id="services">
-      <h1 class="heading">our services</h1>
+    <section class="services" id="services" style="background-color:#242930;">
+      <h1 class="heading">our <span style="color:var(--yellow);">services</span></h1>
 
       <div class="box-container">
         <div class="box">
-          <img src="images/FACode.png" alt="" />
-          <h3>Custom Web Development</h3>
+          <img src="/images/coding.png" alt=""/>
+          <h3 style="font-weight: bold;">Custom Web Development</h3>
           <p>
             Transformative web designs that elevate your digital presence, ensuring user-friendly experiences across all devices.
           </p>
         </div>
 
         <div class="box">
-          <img src="images/Phone.png" alt="" />
-          <h3>Mobile App Development</h3>
+          <img src="/images/smartphone-coding-svgrepo-com.png" alt="" />
+          <h3 style="font-weight: bold;">Mobile App Development</h3>
           <p>
             Innovative mobile apps for iOS and Android, tailored to enhance engagement and streamline your business operations.
           </p>
         </div>
 
         <div class="box">
-          <img src="images/AIndML.png" alt="" />
-          <h3>AI & Machine Learning Solutions
+          <img src="/images/ai-brain-data-svgrepo-com.png" alt="" />
+          <h3 style="font-weight: bold;">AI & Machine Learning Solutions
           </h3>
           <p>
             Leverage AI and machine learning to unlock data insights, automate processes, and revolutionize your business strategy.
@@ -170,8 +208,36 @@
         </div>
 
         <div class="box">
-          <img src="images/Lock.png" alt="" />
-          <h3>Cybersecurity Services</h3>
+          <img src="/images/social-media.png" alt="" />
+          <h3 style="font-weight: bold;">Marketing Services</h3>
+          <p>
+            Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity against evolving threats.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/images/ux.png" alt="" />
+          <h3 style="font-weight: bold;">Graphic & UI/UX Design</h3>
+          <p>
+            Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity against evolving threats.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/images/consulting-services.png" alt="" />
+          <h3 style="font-weight: bold;">IT Consulting</h3>
+          <p>
+            Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity against evolving threats.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/images/question-and-answer.png" alt="" />
+          <h3 style="font-weight: bold;">QA & Testing</h3>
+          <p>
+            Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity against evolving threats.
+          </p>
+        </div>
+        <div class="box">
+          <img src="/images/teams.png" alt="" />
+          <h3 style="font-weight: bold;">Dedicated Development Team</h3>
           <p>
             Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity against evolving threats.
           </p>
@@ -183,9 +249,12 @@
 
     <!-- projects section starts  -->
 
-    <section class="projects" id="projects">
-      <h1 class="heading">our projects</h1>
-
+    <section class="projects" id="projects" style="background-color: #353B43;">
+      <h1 class="heading">our <span style="color:var(--yellow);">projects</span></h1>
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          
       <div class="box-container">
         <a href="images/CryptoMining.png" class="box">
           <div class="image">
@@ -230,236 +299,204 @@
           </div>
         </a>
       </div>
-    </section>
+      
+        </div>
+        <div class="carousel-item active">
+          
+          <div class="box-container">
+            <a href="images/CryptoMining.png" class="box">
+              <div class="image">
+                <img src="images/CryptoMining.png" alt="" />
+              </div>
+              <div class="content">
+                <div class="info">
+                  <h3>HashPioneer</h3>
+                  <p>crypto mining platform</p>
+                </div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </a>
+    
+            
+    
+            <a href="images/ChatbotE.png" class="box">
+              <div class="image">
+                <img src="images/ChatbotE.png" alt="" />
+              </div>
+              <div class="content">
+                <div class="info">
+                  <h3>Educator</h3>
+                  <p>Chatbot for education</p>
+                </div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </a>
+    
+            
+    
+            <a href="images/BankingS.png" class="box">
+              <div class="image">
+                <img src="images/BankingS.png" alt="" />
+              </div>
+              <div class="content">
+                <div class="info">
+                  <h3>NexaBank</h3>
+                  <p>e-Banking Software</p>
+                </div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </a>
+          </div>
+          
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
 
     <!-- projects section ends -->
 
     <!-- reviews section starts  -->
 
-    <section class="reviews">
-      <h1 class="heading">clients reviews</h1>
-
-      <div class="swiper reviews-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-1.png" alt="" />
-              <div class="info">
-                <h3>john deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-2.png" alt="" />
-              <div class="info">
-                <h3>doe deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-3.png" alt="" />
-              <div class="info">
-                <h3>andrew deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-4.png" alt="" />
-              <div class="info">
-                <h3>john deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-5.png" alt="" />
-              <div class="info">
-                <h3>john deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide slide">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              unde suscipit quis consequuntur, tempora corporis ex molestias
-              dignissimos in cumque sunt ducimus voluptate inventore harum earum
-              rem aperiam vel modi?
-            </p>
-            <div class="user">
-              <img src="images/pic-6.png" alt="" />
-              <div class="info">
-                <h3>john deo</h3>
-                <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <!-- reviews section ends -->
 
     <!-- pricing section starts  -->
 
-    <section class="pricing" id="pricing">
-      <h1 class="heading">our pricing</h1>
-
-      <div class="box-container">
-        <div class="box">
-          <i class="fas fa-home"></i>
-          <h3>basic plan</h3>
-          <div class="price"><span>$</span>250<span>/mo</span></div>
-          <div class="list">
-            <p>Standard development tools</p>
-            <p>Monthly site updates</p>
-            <p>Basic security alerts</p>
-            <p>Email support</p>
-            <p>Analytics dashboard access</p>
+    <!-- <section class="team" style="background-color: #353B43;">
+      <h1 class="heading"id="team" style="font-weight: bolder;">Our <span style="color:var(--yellow);"> team</span></h1>
+      <p></p>
+      <div class="wow">
+          <div class="card">
+              <div class="image">
+                  <img src="./images/pic-3.png" alt="Team member 1">
+              </div>
+              <div class="info">
+                  <h3>Schott Watkins</h3>
+                  <span>Web Developer</span>
+                  <div class="icons">
+                      <a href="#" class="fab fa-facebook-f"></a>
+                      <a href="#" class="fab fa-twitter"></a>
+                      <a href="#" class="fab fa-instagram"></a>
+                      <a href="#" class="fab fa-linkedin"></a>
+                  </div>
+              </div>
           </div>
-          <a href="#" class="btn">choose plan</a>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-building"></i>
-          <h3>premium plan</h3>
-          <div class="price"><span>$</span>650<span>/mo</span></div>
-          <div class="list">
-            <p>Custom development hours</p>
-            <p>Enhanced security reports</p>
-            <p>Priority support access</p>
-            <p>Advanced AI tools</p>
-            <p>Bi-weekly optimizations</p>
-          </div>
-          <a href="#" class="btn">choose plan</a>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-city"></i>
-          <h3>ultimate plan</h3>
-          <div class="price"><span>$</span>1250<span>/mo</span></div>
-          <div class="list">
-            <p>Dedicated development team</p>
-            <p>Comprehensive security suite</p>
-            <p>24/7 priority support</p>
-            <p>Monthly strategic sessions</p>
-            <p>Custom AI development</p>
-
-          </div>
-          <a href="#" class="btn">choose plan</a>
-        </div>
       </div>
-    </section>
+      <div class="wow">
+          <div class="card">
+              <div class="image">
+                  <img src="./images/pic-2.png" alt="Team member 1">
+              </div>
+              <div class="info">
+                  <h3>Nicole Bell</h3>
+                  <span>Mobile Developer</span>
+                  <div class="icons">
+                      <a href="#" class="fab fa-facebook-f"></a>
+                      <a href="#" class="fab fa-twitter"></a>
+                      <a href="#" class="fab fa-instagram"></a>
+                      <a href="#" class="fab fa-linkedin"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="wow">
+          <div class="card">
+              <div class="image">
+                  <img src="./images/pic-1.png" alt="Team member 1">
+              </div>
+              <div class="info">
+                  <h3>John Doe</h3>
+                  <span>Graphic Designer</span>
+                  <div class="icons">
+                      <a href="#" class="fab fa-facebook-f"></a>
+                      <a href="#" class="fab fa-twitter"></a>
+                      <a href="#" class="fab fa-instagram"></a>
+                      <a href="#" class="fab fa-linkedin"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="wow">
+          <div class="card">
+              <div class="image">
+                  <img src="./images/pic-4.png" alt="Team member 1">
+              </div>
+              <div class="info">
+                  <h3>Rose Matthews</h3>
+                  <span>Web Designer</span>
+                  <div class="icons">
+                      <a href="#" class="fab fa-facebook-f"></a>
+                      <a href="#" class="fab fa-twitter"></a>
+                      <a href="#" class="fab fa-instagram"></a>
+                      <a href="#" class="fab fa-linkedin"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section> -->
 
     <!-- pricing section ends -->
 
     <!-- contact section starts  -->
 
-    <section class="contact" id="contact">
-      <h1 class="heading">contact us</h1>
+    <section class="contact" id="contact" style="background-color: #242930;">
+      <h1 class="heading"id ="contact">contact <span style="color:var(--yellow);">us</span></h1>
 
-      <div class="row">
-        <iframe
-          class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.4289583495!2d-111.92810105000001!3d33.3919224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1706301453151!5m2!1sen!2sus"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-
-        <form action="">
-          <h3>get in touch</h3>
-          <input type="text" placeholder="name" class="box" />
-          <input type="email" placeholder="email" class="box" />
-          <input type="number" placeholder="phone" class="box" />
-          <textarea
-            name=""
-            placeholder="message"
-            class="box"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <input type="submit" value="send message" class="btn" />
-        </form>
+      <div class="row" style="align-items: center;">
+    
+        <div class="contact-details" style="width: 50%;">
+          
+          <h3 style="color: rgb(148, 146, 146);">Contact Details</h3>
+          <p style="color:  rgb(148, 146, 146);">
+              Our team is happy to answer your questions and take you through the process of building something great. 
+              You can contact us directly using the following details or request an email follow-up by filling out the form. 
+              Please mention the topic of your inquiry, e.g., Request proposal for your business website or mobile apps.
+          </p>
+          <div class="contact-details">
+              <div class="con-info clearfix" style="color: rgb(148, 146, 146);">
+                  <i class="tf-map-pin"></i> 
+                  <span>Suite: FF#5 SCO Software Technology Park Gilgit, Pakistan.</span>
+              </div>
+              <div class="con-info clearfix" style="color: rgb(148, 146, 146);">
+                  <i class="tf-ion-ios-telephone-outline"></i> 
+                  <span>Phone: +92-332-3225-556</span>
+              </div>
+              <div class="con-info clearfix" style="color: rgb(148, 146, 146);">
+                  <i class="tf-ion-ios-email-outline"></i> 
+                  <span>Email: hello@dotaustere.com</span>
+              </div>
+          </div>
       </div>
+      
+        
+        <form action="" method="post">
+          <h3 style="color: white;">Get in Touch</h3>
+          <input type="text" placeholder="Name" class="box" required />
+          <input type="email" placeholder="Email" class="box" required />
+          <input type="number" placeholder="Phone" class="box" required />
+          <textarea
+              name="message"
+              placeholder="Message"
+              class="box"
+              cols="30"
+              rows="10"
+              required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+      </form>
+      </div>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12923.359000249304!2d74.3095896!3d35.9264223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e6353e099ea2ef%3A0xe00f639678da2b07!2sAppo%20Matrix!5e0!3m2!1sen!2s!4v1728137437643!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </section>
 
     <!-- contact section ends -->
@@ -470,21 +507,17 @@
 
     <section class="footer">
       <div class="links">
-        <a class="btn" href="#home">home</a>
-        <a class="btn" href="#about">about</a>
-        <a class="btn" href="#services">services</a>
-        <a class="btn" href="#projects">projects</a>
-        <a class="btn" href="#pricing">pricing</a>
-        <a class="btn" href="#contact">contact</a>
+       
+
       </div>
 
-      <div class="credit">
+      <!-- <div class="credit">
         created by
         
           <span>Sherwin Vishesh Jathanna</span>
         
         | all rights reserved!
-      </div>
+      </div> -->
     </section>
 
     <!-- footer section ends -->
@@ -495,6 +528,7 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
       lightGallery(document.querySelector(".projects .box-container"));
